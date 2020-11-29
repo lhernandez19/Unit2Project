@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2f6fa;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #00334e;
+  font-weight: 800;
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  padding: 25px;
+  color: #004d73;
+}
+
+.scoreBoard {
+  text-align: center;
+}
+
+.images {
+  text-align: center;
+}
+
+img {
+  background-color: whitesmoke;
+  border-radius: 50%;
+  border: 3px solid #feba02;
+  margin: auto;
+  justify-content: center;
+  transition: all 0.1s ease-in-out;
+  margin: 5px;
+  padding: 15px;
+  box-shadow: 1px 1px 10px 5px rgb(226, 226, 226);
+}
+
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 10px 5px #ccc;
+}
+
+.results {
+  text-align: center;
+  padding: 5%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #007fbd;
+}
+
+#resultOutput {
+  font-size: 36px;
+}
+
+.separator1 {
+  width: 70px;
+  height: 3px;
+  background-color: #feba02;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.scoreBoard {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+}
+
+table td {
+  color: #004d73;
+  font-weight: 700;
+}
